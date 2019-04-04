@@ -1,0 +1,43 @@
+/*@font-face {*/
+/*font-family: 'Shrikhand';*/
+/*src: url('./font/Shrikhand-Regular.ttf') format('truetype');*/
+/*}*/
+
+.logo {
+  font-family: 'Shrikhand', cursive;
+  margin: 0;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  list-style-type: none;
+}
+
+.right ul li {
+  display: inline-block;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+
+.right a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.right a:hover {
+  opacity: 0.7;
+}
